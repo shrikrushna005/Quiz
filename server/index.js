@@ -26,7 +26,7 @@ app.use((err, req, res, next) => {
     res.json({ msg: "something is wrong in server" })
 })._router
 app.get('/', (req, res) => {
-    res.send("<div> hii from vsing</div>")
+    res.send("<div> hii</div>")
 })
 app.post('/contactus', async (req, res) => {
     try {
